@@ -12,8 +12,12 @@ whitelist:
 basicAuthMode: true
 # Basic authentication credentials
 basicAuthUser:
-  username: hai
-  password: 123
+  username:${process.env.username}
+<<<<<<< HEAD
+  password:${process.env.password} 
+=======
+  password: 1
+>>>>>>> ffc614a2a52dc3af37211edf6e1d32d88d8b4117
 # Enables CORS proxy middleware
 enableCorsProxy: false
 # Disable security checks - NOT RECOMMENDED
