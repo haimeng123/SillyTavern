@@ -12,9 +12,9 @@ whitelist:
 basicAuthMode: true
 # Basic authentication credentials
 basicAuthUser:
-  username:${process.env.username}
+  username:${hai}
 <<<<<<< HEAD
-  password:${process.env.password} 
+  password:${1} 
 =======
   password: 1
 >>>>>>> ffc614a2a52dc3af37211edf6e1d32d88d8b4117
